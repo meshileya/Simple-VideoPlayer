@@ -79,9 +79,9 @@ class VideoDetailsController : UIViewController, UICollectionViewDelegateFlowLay
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         //Handle on item seleted here
-//        let vc = VideoDetailsController()
-//        vc.videoData = itemList[indexPath.item]
-//        self.navigationController?.pushViewController(vc, animated: true);
+        let vc = CustomIframeViewController()
+        vc.browserUrl = itemList[indexPath.item]
+        self.navigationController?.pushViewController(vc, animated: true);
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

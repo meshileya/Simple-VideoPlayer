@@ -2,8 +2,7 @@
 The present state of the application fetches a REST-API and represents the data on two different screen.
 
 
-
-![alt text](https://github.com/meshileya/Simple-VideoPlayer-iOS/tree/blob/master/1.png)
+![Loading](https://github.com/meshileya/Simple-VideoPlayer-iOS/blob/master/1.png)
 
 ![alt text](https://github.com/meshileya/Simple-VideoPlayer-iOS/tree/blob/master/2.png)
 ![alt text](https://github.com/meshileya/Simple-VideoPlayer-iOS/tree/blob/master/3.png)

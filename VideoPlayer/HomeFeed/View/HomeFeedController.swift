@@ -72,7 +72,7 @@ class HomeFeedController: UIViewController, UICollectionViewDelegateFlowLayout, 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         if UIDevice.current.userInterfaceIdiom == .pad{
-            return CGSize(width: ((view.frame.width) - 40), height: 104)
+            return CGSize(width: view.frame.width, height: 500)
         }
         else {
             return CGSize(width: view.frame.width, height: 270)
